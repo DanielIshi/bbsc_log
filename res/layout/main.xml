@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+
+     <LinearLayout android:id="@+id/linearLayout1"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                android:layout_width="fill_parent">
+                
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Übung"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/Laden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laden" />
+
+        <Button
+            android:id="@+id/Speichern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speichern" />
+
+        <Button
+            android:id="@+id/Optionen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Optionen" />
+
+        <Button
+            android:id="@+id/Einloggen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in" />
+
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/Datumreihe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Datum   :"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/U1F1104"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1105"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1108"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F198"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F199"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1100"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1101"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1109"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1111"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1110"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1106"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1107"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1102"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F1103"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Zeitenreihe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zeit         :"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/U1F197"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F196"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F195"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F194"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F193"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F192"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F191"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F190"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F189"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F188"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F187"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F186"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F185"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+
+            <EditText
+                android:id="@+id/U1F184"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:lines="1"
+                android:singleLine="true"
+                android:textSize="8px" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText android:id="@+id/EditText01" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText02" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText03"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditText04"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText05" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText06" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText07"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText08"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText09"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText10" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText android:id="@+id/EditText11" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText12" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText13"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText14"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText
+                android:id="@+id/EditText15"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText16"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText17"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText18"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText19"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText20"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText21"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText22"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText23"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText24"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText25"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText26"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText27"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText28"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText
+                android:id="@+id/EditText29"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText30"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText31"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText32"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText33"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText android:id="@+id/EditText34" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText35"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText36"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            <EditText
+                android:id="@+id/EditText37"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText android:id="@+id/EditText38" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText39" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText40" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText41"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" ></EditText>
+
+            <EditText
+                android:id="@+id/EditText42"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText android:id="@+id/EditText43" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText44" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText45"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText46"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText47" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText48" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText49"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText50"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText51"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText android:id="@+id/EditText52" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            <EditText
+                android:id="@+id/EditText53"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText54"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText55" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText56" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText android:id="@+id/EditText57" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText58" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText59"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText60"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText61" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText62" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText63"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText64"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText65"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText66" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText67"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText68"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText69" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText70" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText71"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText72"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText73" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText74" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            <EditText
+                android:id="@+id/EditText75"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText76"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText77"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText78" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText79"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText80" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText81"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText82"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText83" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText84" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText
+                android:id="@+id/EditText85"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText86"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText87" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText88" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText89"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText90"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText91" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText92" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText93"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText94" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText95"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText96"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText97" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText98" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText99"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText100"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText101" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText102" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText103" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText104" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText105"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText106"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText107"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText108" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText109"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText110"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText111" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText112" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" /><EditText android:id="@+id/EditText113" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText114" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText115"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText116"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText117" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText118" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText119"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText120"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText121"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText android:id="@+id/EditText122" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText123" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText124" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText125"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText126"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" /><EditText android:id="@+id/EditText127" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText128" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText129"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText130"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText131" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText132" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText133"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText134"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText135"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText136" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText137"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText138"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText139" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText140" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" /><EditText android:id="@+id/EditText141" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText142" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText143"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText144"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText145" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText146" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText147"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText148"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText149"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText150" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText151"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText152"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText153" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText154" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" /><EditText android:id="@+id/EditText155" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText156" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText157"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText158"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText159" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText160" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText161"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText162"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText163"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText164" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText165"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText166"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText167" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText168" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText android:id="@+id/EditText169" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText170" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText171"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText172"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText173"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText174"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText175" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText176" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText177"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText178" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText179"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText180"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText181" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText182" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crunches" />
+
+            <EditText android:id="@+id/EditText183" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText184" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText185"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText186"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            
+
+            <EditText android:id="@+id/EditText187" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText188" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText
+                android:id="@+id/EditText189"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText190"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            
+
+            <EditText
+                android:id="@+id/EditText191"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText192" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+
+            
+
+            <EditText
+                android:id="@+id/EditText193"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" />
+
+            <EditText
+                android:id="@+id/EditText194"
+                android:layout_width="32dp"
+                android:layout_height="26dp"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="10px" /><EditText android:id="@+id/EditText195" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" /><EditText android:id="@+id/EditText196" android:layout_width="32dp" android:layout_height="26dp" android:editable="true" android:ems="10" android:inputType="numberDecimal" android:singleLine="true" android:textSize="10px" />
+
+            
+        </TableRow>
+
+       
+
+        </TableLayout>
+      </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"></LinearLayout>
+</LinearLayout>

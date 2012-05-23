@@ -1,0 +1,45 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:BBSC_Trainings_Log" 
+    x:Class="BBSC_Trainings_Log.Liste"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+   
+    >
+    
+	<phone:PhoneApplicationPage.Resources>
+		<local:MyViewModel x:Key="MyViewModelDataSource" d:IsDataSource="True"/>
+		<DataTemplate x:Key="EinzelnerEintragVMTemplate">
+			<StackPanel>
+				<TextBlock Text="{Binding Name}" FontSize="48" FontWeight="Bold" Margin="0,3"/>
+				<TextBlock Text="{Binding Reference}" Visibility="Collapsed"/>
+			</StackPanel>
+		</DataTemplate>
+	</phone:PhoneApplicationPage.Resources>
+	
+
+
+    <!--LayoutRoot ist das Stammraster, in dem alle anderen Seiteninhalte platziert werden-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" DataContext="{Binding Source={StaticResource MyViewModelDataSource}}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel enthält den Namen der Anwendung und den Seitentitel-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="BBSC Trainings Log" Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - zusätzliche Inhalte hier platzieren-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox x:Name="MyList" Margin="8"  ItemTemplate="{StaticResource EinzelnerEintragVMTemplate}" ItemsSource="{Binding PlacesListe}" SelectionChanged="MyList_SelectionChanged" /></Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
